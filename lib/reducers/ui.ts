@@ -1,4 +1,4 @@
-import {remote} from 'electron';
+import remote from '@electron/remote';
 // TODO: Should be updates to new async API https://medium.com/@nornagon/electrons-remote-module-considered-harmful-70d69500f31
 
 import Immutable, {Immutable as ImmutableType} from 'seamless-immutable';
